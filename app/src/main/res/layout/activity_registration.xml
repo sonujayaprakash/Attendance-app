@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Registration"
+        android:textColor="#F08C05"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="351dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter first Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="352dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Last Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="352dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter E - mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/collegeid"
+        android:layout_width="355dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="college Id"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="353dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/reenter_password"
+        android:layout_width="353dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="ReEnter Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#FF9204"
+        android:drawablePadding="5dip"
+        android:padding="5dip"
+        android:text="Submit"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="69dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="Already have an Account?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="29dp"
+        android:fontFamily="sans-serif"
+        android:text="Login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FB8C00"
+        android:textSize="15sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
